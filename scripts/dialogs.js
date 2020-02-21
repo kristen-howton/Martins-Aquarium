@@ -42,7 +42,7 @@ document.querySelector("#button--betty").addEventListener(
 document.querySelector("#button--nemo").addEventListener(
     "click",
     theClickEvent => {
-        const theDialog = dorcument.querySelector("#details--nemo")
+        const theDialog = document.querySelector("#details--nemo")
         theDialog.showModal()
     }
 )

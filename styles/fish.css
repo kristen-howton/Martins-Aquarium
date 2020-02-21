@@ -2,9 +2,18 @@
     flex-basis: 65%;
     display: flex;
     flex-wrap: wrap;
+    box-shadow: 0 0 2px 1px black;
+  
 }
 
 .fish__image {
-    width: 8rem;
-    height: 8rem;
+    width: 9rem;
+    height: 9rem;
+    border-radius: 50%;
+
+}
+
+.fish__name{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
 }
