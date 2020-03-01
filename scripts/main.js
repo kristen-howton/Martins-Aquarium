@@ -1,5 +1,10 @@
-import FishList from './FishList.js'
+import FishList from './FishList.js';
+
+
 
 //initializeDetailButtonEvents()
 
 FishList()
+
+
+
