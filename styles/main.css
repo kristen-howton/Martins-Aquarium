@@ -13,7 +13,8 @@ body {
 }
 
 body {
-    background: url(https://cdn3.vectorstock.com/i/1000x1000/85/17/fish-logo-template-creative-symbol-vector-16278517.jpg) left top no-repeat;  
+    background: url(https://previews.123rf.com/images/kert/kert1201/kert120100049/12080602-bright-turquoise-sea-fish-background.jpg) no-repeat center fixed;  
+    background-size: cover;
 }
 
 .PageTitle {

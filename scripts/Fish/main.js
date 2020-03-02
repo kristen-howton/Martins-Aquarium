@@ -1,5 +1,6 @@
 import FishList from './FishList.js';
-
-//initializeDetailButtonEvents()
+import initializeDetailButtonEvents from "./dialog.js";
 
 FishList()
+
+initializeDetailButtonEvents()

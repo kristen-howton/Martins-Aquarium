@@ -5,10 +5,11 @@ nav{
   font-weight: bold;
   letter-spacing: 4px;
   padding: 20px;
-  background-color: blue;
+  background-color:teal;
   display: flex;
   justify-content: space-around;
   font-size: larger;
+  text-align: center;
 }
 
 .navigation {
