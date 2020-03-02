@@ -15,7 +15,7 @@ const locationCollection = [
     {
         name: "Tokyo",
         location: "Japan",
-        image: "https://assets.gojourny.com/stories/2019/03/Journy-s-Must-Read-Guide-to-Tokyo--Japan.jpg"
+        image: "https://img.theculturetrip.com/768x432/wp-content/uploads/2015/12/Shinjuku_Gyoen_National_Garden_-_sakura_3.jpg"
 
     },
 

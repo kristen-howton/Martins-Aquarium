@@ -14,3 +14,4 @@ const Location = (locationObject) => {
 }
 
 export default Location
+
