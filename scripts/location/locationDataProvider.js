@@ -7,22 +7,22 @@
 
 const locationCollection = [
     {
-        name: "Paris",
-        location: "France",
-        image: "https://media.gettyimages.com/photos/eiffel-tower-in-paris-france-picture-id924894324?s=612x612"
+        name: "Cairns",
+        location: "Australia",
+        image: "https://australienexperten.com/wp-content/uploads/2018/05/cns-001-500x332.jpg"
     },
 
     {
-        name: "Tokyo",
-        location: "Japan",
-        image: "https://img.theculturetrip.com/768x432/wp-content/uploads/2015/12/Shinjuku_Gyoen_National_Garden_-_sakura_3.jpg"
+        name: "Azores",
+        location: "Australia",
+        image: "https://i2.wp.com/thepointsguy.com/wp-content/uploads/2018/02/Lake-of-Sete-Cidades-from-Vista-do-Rei-viewpoint-in-Sao-Miguel-Azores.jpg?resize=480%2C270px&ssl=1"
 
     },
 
     {
-        name: "Venice",
-        location: "Venice, Italy",
-        image: "https://www.tripsavvy.com/thmb/faSqFmMmFvsyB-_769iWUQI-_5g=/960x0/filters:no_upscale():max_bytes(150000):strip_icc()/gondolier-heads-into-the-sunset-along-venice-s-grand-canal--sunset--1062428612-261501b5a5f44ffc95f012f908750ad4.jpg"
+        name: "Orkney Islands",
+        location: "Scotland",
+        image: "https://static.onecms.io/wp-content/uploads/sites/28/2017/04/Orkney-Islands-VACAYSCOTS0417.jpg"
     }
 ]
 

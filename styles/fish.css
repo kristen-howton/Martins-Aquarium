@@ -6,6 +6,7 @@
 .fish__image {
     width: 15rem;
     height: 15rem;
+    border-radius: 10%;
 }
 
 .fish__name {

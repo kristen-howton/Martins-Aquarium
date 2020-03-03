@@ -7,41 +7,40 @@
 
 const fishCollection = [
     {
-        name: "Betty",
+        name: "Finley",
         length: "2 feet",
-        species: "Longtooth Barracuda",
-        food: ["algae"],
-        location: "Cumberland River",
-        image: "https://i.ytimg.com/vi/z_XlTRYLZ1Q/maxresdefault.jpg"
-
-    },
-
-    {
-        name: "Nemo",
-        length: "2 inches",
-        species: "Clownfish",
-        food: ["Plankton"],
-        location: "Great Barrier Reef",
-        image: "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.7xhhlta3q-wVKpgzGdTlpAHaFj%26pid%3DApi&f=1"
-
-    },
-
-    {
-        name: "Dory",
-        length: "4 inches",
-        species: "Blue Tang",
-        food: ["Clownfish"],
-        location: "New Zealand Sea",
-        image: "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fthedisneyinme.files.wordpress.com%2F2013%2F12%2Fdory.jpg&f=1&nofb=1"
-    },
-
-    {
-        name: "Bart",
-        length: "4 inches",
-        species: "Goldfish",
-        food: ["dirt"],
+        species: "Atlantic Blue Marlin",
+        food: ["mackerel, tuna"],
         location: "Atlantic Ocean",
-        image: "https://www.peta.org/wp-content/uploads/2019/08/iStock-1160758684_NONTANUN-CHAIPRAKON-1-602x301.jpg"
+        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Atlantic_blue_marlin.jpg/220px-Atlantic_blue_marlin.jpg"
+    },
+
+    {
+        name: "Bubbles",
+        length: "2 inches",
+        species: "Big Eye Tuna",
+        food: ["crustaceans"],
+        location: "Pacific Ocean",
+        image: "https://www.pewtrusts.org/-/media/post-launch-images/2018/07/kdx03r/16x9_m.jpg"
+
+    },
+
+    {
+        name: "Captain",
+        length: "4 inches",
+        species: "Brown Trout",
+        food: ["zooplankton, insects"],
+        location: "Atlantic Ocean",
+        image: "https://www.gannett-cdn.com/-mm-/9afb2f172f65b2d22ca128cd9d416f95c1905042/c=1138-0-3730-2592/local/-/media/2017/04/07/Elmira/B9327072164Z.1_20170407191158_000_G8NI0ECV0.1-0.jpg?quality=10"
+    },
+
+    {
+        name: "Squirt",
+        length: "4 inches",
+        species: "Wahoo",
+        food: ["bill fish"],
+        location: "Atlantic Ocean",
+        image: "https://www.sosuafishing.com/wp-content/uploads/2018/01/wahoo.jpg"
     },
 ]
 
