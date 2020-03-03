@@ -1,0 +1,12 @@
+.locationList {
+    flex-basis: 65%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.location__image {
+    width: 20rem;
+    height: 20rem;
+    border-radius: 20%;
+}
