@@ -1,4 +1,4 @@
-import { useFish, mostHolyFish, soldierFish, nonHolyFish } from "./fishDataProvider.js"
+import { mostHolyFish, soldierFish, nonHolyFish } from "./fishDataProvider.js";
 import Fish from "./Fish.js"
 
 const FishList = () => {
@@ -12,21 +12,19 @@ const FishList = () => {
     // Iterate the array
     for (const fishObject of fishObjectsArray) {
         // Convert each object to HTML representation
-        const fishHTMLRepresentation = mostHolyFish(fishObject)
+        const fishHTMLRepresentation = Fish(fishObject)
 
         // Put HTML in DOM
         contentElement.innerHTML += fishHTMLRepresentation
 
     }
 
-}
-
 fishObjectsArray = soldierFish()  
 
 // Iterate the array
 for (const fishObject of fishObjectsArray) {
     // Convert each object to HTML representation
-    const fishHTMLRepresentation = soldierFish(fishObject)
+    const fishHTMLRepresentation = Fish(fishObject)
 
     // Put HTML in DOM
     contentElement.innerHTML += fishHTMLRepresentation
@@ -39,12 +37,15 @@ fishObjectsArray = nonHolyFish()
 // Iterate the array
 for (const fishObject of fishObjectsArray) {
     // Convert each object to HTML representation
-    const fishHTMLRepresentation = nonHolyFish(fishObject)
+    const fishHTMLRepresentation = Fish(fishObject)
 
     // Put HTML in DOM
     contentElement.innerHTML += fishHTMLRepresentation
 
 }
+}
+
+
 
 export default FishList
 

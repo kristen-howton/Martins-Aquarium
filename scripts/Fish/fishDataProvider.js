@@ -44,11 +44,11 @@ const fishCollection = [
     },
 ]
 
-export const useFish = () => {
+const useFish = () => {
     return fishCollection.slice()
 }
 
-export const mostHolyFish = () => {
+const mostHolyFish = () => {
     // 3, 6, 9, 12, etc... fish
     const holyFish = []
 
@@ -61,7 +61,9 @@ export const mostHolyFish = () => {
     return holyFish
 }
 
-export const soldierFish = () => {
+
+
+const soldierFish = () => {
     // 5, 10, 15, 20, 25, etc... fish
     const soldiers = []
 
@@ -74,7 +76,7 @@ export const soldierFish = () => {
     return soldiers
 }
 
-export const nonHolyFish = () => {
+const nonHolyFish = () => {
     // Any fish not a multiple of 3 or 5
     const regularFish = []
 
@@ -86,3 +88,8 @@ export const nonHolyFish = () => {
 
     return regularFish
 }
+
+export { useFish };
+export { mostHolyFish };
+export { soldierFish };
+export { nonHolyFish };
