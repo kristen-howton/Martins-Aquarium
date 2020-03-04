@@ -17,10 +17,6 @@
 
         // Get a reference to all buttons that start with "button--"
 
-
-        // document.querySelectorAll("div[class^='fish']")
-
-
         const allDetailButtons = document.querySelectorAll("button[id^='button--']")
 
         // Add an event listener to each one
